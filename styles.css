@@ -46,7 +46,7 @@ h1, h2 {
 
 h1 {
     font-size: var(--h1);
-    margin: 10rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 
 h2 {
@@ -61,16 +61,23 @@ p {
     font-family: var(--paragraph-style);
 }
 
-
 .home {
     display: flex;
     flex-direction: column;
 }
 
 /* Logo section + above*/
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .logoHeader {
     font-family: var(--logo-style);
     font-size: 5rem;
+    margin: auto;
 }
 
 .logoLineBreak {
@@ -104,6 +111,12 @@ p {
     z-index: 5;
 }
 
+.colourContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .colourSubContainer {
     display: flex;
     width: 100%;
@@ -117,10 +130,32 @@ p {
     color: var(--arathi-highlands);
 }
 
+.description {
+    width: 30rem;
+}
+/* Raw Colour */
 .gray5 {
     background-color: var(--gray5);
 }
 
 .flushOrange {
     background-color: var(--flush-orange);
+}
+
+.seashell {
+    background-color: var(--seashell);
+}
+
+.buttonBlue {
+    background-color: var(--button-blue);
+}
+
+.arathiHighlands {
+    background-color: var(--arathi-highlands);
+}
+
+/* Filter */
+
+.borderFilter {
+    filter: drop-shadow(0 0 0.2rem var(--gray5));
 }

@@ -68,6 +68,10 @@ p {
     flex-direction: column;
 }
 
+.main {
+    margin: 0 5rem
+}
+
 /* Raw Colour */
 .gray5 {
     background-color: var(--gray5);
@@ -89,10 +93,18 @@ p {
     background-color: var(--arathi-highlands);
 }
 
-/* Filter */
+/* Filter + Objects */
 
 .borderFilter {
     filter: drop-shadow(0 0 0.2rem var(--gray5));
+}
+
+.lineBreak {
+    width: 60vw;
+    height: 1rem;
+    background-color: var(--arathi-highlands);
+    border-radius: 8px;
+    margin: 1rem 0;
 }
 
 /* Logo section + above*/
@@ -103,26 +115,44 @@ p {
     flex-wrap: wrap;
 }
 
+.logoHeaderGreen {
+    color: var(--arathi-highlands);
+}
+
 .logoHeader {
     font-family: var(--logo-style);
     font-size: 5rem;
     margin: auto;
 }
 
-.logoLineBreak {
-    width: 60vw;
-    height: 1rem;
-    background-color: var(--arathi-highlands);
-    border-radius: 8px;
+.logoHeaderWordmark {
+    font-family: var(--logo-style);
+    font-size: 5rem;
+    margin: auto 0 auto 3rem;
 }
+
 .logoSubHead {
     font-size: var(--h1);
     font-family: var(--header-style);
 }
 
-.main {
-    margin: 0 5rem
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem;
 }
+
+.logoVariationContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.logoVariation {
+    width: 15rem
+}
+
 
 /* Colour */
 .colourShapeMain {

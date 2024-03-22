@@ -28,7 +28,7 @@
     justify-content: space-around;
     margin: 5rem auto;
     width: 90vw;
-    
+
 }
 
 li {
@@ -42,7 +42,12 @@ a {
     color: var(--gray5);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--header-style);
 }
 
@@ -143,14 +148,32 @@ p {
     margin: 3rem;
 }
 
+.logoMain {
+    width: 10rem
+}
+
 .logoVariationContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 3rem;
+    width: 90vw;
 }
 
 .logoVariation {
-    width: 15rem
+    margin: 3rem;
+    height: 10rem
+}
+
+.logoVariationWidth {
+    height: 10rem;
+    margin: auto;
+}
+
+.logoVarBgGreen {
+    background-color: var(--arathi-highlands);
+    padding: 1rem;
+    border-radius: 8px;
 }
 
 
@@ -195,7 +218,12 @@ p {
 
 /* Typography */
 
-.typographyHeadings h1, h2, h3, h4, h5, h6 {
+.typographyHeadings h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 2rem 0 0 0;
 }
 

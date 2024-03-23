@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Lexend:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+        integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -82,7 +85,7 @@
                 <div class="lineBreak"></div>
                 <div class="colourContainer">
                     <!-- -->
-                    <div>
+                    <div class="colourContainShapeDesc">
                         <div class="colourShapeMain flushOrange">
                             <div class="colourSubContainer">
                                 <div class="colourShapeSub gray5"></div>
@@ -96,7 +99,7 @@
                             identify key features of our app by being very visible </p>
                     </div>
                     <!-- -->
-                    <div>
+                    <div class="colourContainShapeDesc">
                         <div class="colourShapeMain seashell borderFilter">
                             <div class="colourSubContainer">
                                 <div class="colourShapeSub arathiHighlands"></div>
@@ -112,7 +115,7 @@
                             basic palette of a real duck. </p>
                     </div>
                     <!-- -->
-                    <div>
+                    <div class="colourContainShapeDesc">
                         <div class="colourShapeMain gray5">
                             <div class="colourSubContainer">
                                 <div class="colourShapeSub seashell"></div>
@@ -125,7 +128,7 @@
                             color. The colour comes from the eyes of a duck which are predominantly black. </p>
                     </div>
                     <!-- -->
-                    <div>
+                    <div class="colourContainShapeDesc">
                         <div class="colourShapeMain buttonBlue">
                             <div class="colourSubContainer">
                                 <div class="colourShapeSub gray5"></div>
@@ -140,7 +143,7 @@
                             designs </p>
                     </div>
                     <!-- -->
-                    <div>
+                    <div class="colourContainShapeDesc">
                         <div class="colourShapeMain arathiHighlands">
                             <div class="colourSubContainer">
                                 <div class="colourShapeSub seashell"></div>
@@ -190,16 +193,17 @@
                 <div class="lineBreak"></div>
                 <div class="typographyHeadings">
                     <div>
-                        <h1 class="headingAlignment">Lexend H1 30 Font & 1.9 Rem</h1>
+                        <h1 class="headingAlignment">Lexend H1 30 Font & 2.986rem</h1>
                         <p style="width: 50rem;">
                             Choosing Lexend as our heading font takes into account the same selection criteria as
                             Mullish
-                            It should be sans serif, but also retain a sense of "roundness"
+                            It should be sans serif, but also retain a sense of "roundness" which gives way to
+                            readiblity.
                         </p>
-                        <h2 class="headingAlignment">Lexend H2 27.2 Font & 1.7 Rem</h2>
-                        <h3 class="headingAlignment">Lexend H3 24.4 Font & 1.5 Rem </h3>
-                        <h4 class="headingAlignment">Lexend H4 21.6 Font & 1.4 Rem </h4>
-                        <h5 class="headingAlignment">Lexend H5 18.8 Font & 1.2 Rem </h5>
+                        <h2 class="headingAlignment">Lexend H2 27.2 Font & 2.488rem</h2>
+                        <h3 class="headingAlignment">Lexend H3 24.4 Font & 2.074rem </h3>
+                        <h4 class="headingAlignment">Lexend H4 21.6 Font & 1.728rem</h4>
+                        <h5 class="headingAlignment">Lexend H5 18.8 Font & 1.2rem </h5>
                         <h6 class="headingAlignment">Lexend H6 16 Font & 1 Rem</h6>
                     </div>
                 </div>
@@ -223,7 +227,69 @@
             <div id="images">
                 <h1>Graphic & Iconography</h1>
                 <div class="lineBreak"></div>
-            </div>
+                <div style="display: flex; justify-content: space-around; flex-wrap: wrap; flex-direction: row-reverse;">
+                    <div>
+                        <h2>Graphic Inspiration</h2>
+                        <div>
+                            <img src="/img/image 2.png" class="imageSizing">
+                            <img src="/img/image 3.png" class="imageSizing">
+                            <p>Reference: Kurzgesagt</p>
+                        </div>
+                        <div>
+                            <img src="/img/image 5.png" class="imageSizing">
+                            <p>Reference: Vecteezy</p>
+                        </div>
+                        <div>
+                            <img src="/img/IMG_5401 1.png" class="imageSizing">
+                            <p>Sketch: Ben Louis</p>
+                        </div>
+                    </div>
+                    <div class="layoutContainer">
+                        <h2>App Layout Style</h2>
+                        <img src="./img/Sample Layout.png" class="sampleLayout borderFilter">
+                    </div>
+                </div>
+                <h2 style="margin-top: 3rem;">Icons</h2>
+                <p style="width: 60rem;">All icons used will be common visuals elements that associate themselves with
+                    their tasks.
+                    Affordances towards these icons should be predictable, or easily learnable.</p>
+                <div class="icononographyContainer">
+                    <div class="iconIndividualContainer">
+                        <span class="fa fa-user fa-5x" aria-hidden="true"></span>
+                        <h3>Profile</h3>
+                        <p> Representing our profile page, it is generic while also being recognizeable as a silhouette
+                            of a peson. It promotes inclusivity through unspecificity and accessibility through it's
+                            generic visual</p>
+                    </div>
+                    <div class="iconIndividualContainer">
+                        <span class="fa fa-cog fa-5x" aria-hidden="true" style="color: var(--gray5);"></span>
+                        <h3>Settings</h3>
+                        <p> Representing our setting's page, it uses the commonly associate cogwheel to lead users to
+                            understand that this icon represent's technical internal change.</p>
+                    </div>
+                    <div class="iconIndividualContainer">
+                        <span class="fa fa-times fa-5x" aria-hidden="true" style="color: var(--gray5);"></span>
+                        <h3>Close/Exit</h3>
+                        <p> Representing the action of exiting a page, this visual commonly is associated with stopping
+                            an action</p>
+                    </div>
+                    <div class="iconIndividualContainer">
+                        <span class="fa fa-pause fa-5x" aria-hidden="true" style="color: var(--gray5);"></span>
+                        <h3>Pause</h3>
+                        <p> Representing the action of stopping a process, animation or movement. This icon is the most
+                            commonly associated visual related to that action, being most prominent on all major video
+                            platforms. By using this we are generating predictiblity within our use of icons</p>
+                    </div>
+                    <div class="iconIndividualContainer">
+                        <span class="fa fa-play fa-5x" aria-hidden="true" style="color: var(--gray5);"></span>
+                        <h3>Play</h3>
+                        <p> Representing the action of starting a process, animation, or movement. Like the pause icon,
+                            it is the most commonly associated visual with this action. We are generating accessibility
+                            through the same way as well</p>
+                    </div>
+                </div>
+                <p>All Icons are Imported from <a class="linkText" href="https://forkaweso.me/Fork-Awesome/">Fork
+                        Awesome</a></p>
     </main>
 </body>
 

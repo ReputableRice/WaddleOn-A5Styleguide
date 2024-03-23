@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
             <li><a href="#logo">Logo</a></li>
             <li><a href="#colour">Colour</a></li>
             <li><a href="#typography">Typography</a></li>
-            <li><a href="#images">Images</a></li>
+            <li><a href="#images">Graphic & Icons</a></li>
             <li><a href="#references">References</a></li>
         </ul>
     </header>
@@ -52,8 +53,29 @@
                     <img class="logoVariation" src="./img/Group 23.png">
                     <img class="logoVariation logoVarBgGreen" src="./img/Group 25.png">
                 </div>
-                <h2>Logo Description</h2>
-                <p>The logo is designed to be reminiscent of a simplified form of a duck, specifically a mallard. It encompasses our overarching theme of our app being visually centered around ducks</p>
+                <h2>Logo Description & Rationale</h2>
+                <p style="width: 50rem;">
+                    The logo is designed to be reminiscent of a simplified form of a duck, specifically a mallard. It
+                    encompasses our overarching theme of our app being visually centered around ducks while also being
+                    simplistic design-wise with shapes to convey feelings of comfort through easy to read design.
+                </p>
+                <h2>Wordmark Rationale</h2>
+                <p style="width: 50rem;">
+                    When choosing the font intended for the wordmark, Fredoka (or otherwise known as Fredoka One), one
+                    of the main reasons for choosing the font was it's visual "friendliness". Most of our fonts were
+                    chosen
+                    based on two factors that represented that "friendliness": roundness and sans serif style.
+                    <br>
+                    <br>
+                    Colour choice wise, the decision to use predominantly use our pre-existing palette was set in stone
+                    to convey visual coherence within our app's theme.
+                </p>
+                <h2>Favicons</h2>
+                <div>
+                    <img src="./img/mallard.png">
+                    <img src="./img/mallard-1.png">
+                    <img src="./img/mallard-2.png">
+                </div>
             </div>
             <div id="colour">
                 <h1>Colour Palette</h1>
@@ -133,38 +155,75 @@
                     </div>
                     <!-- -->
                 </div>
-                <h2> Contrast Colours & Accessiblity</h2>
-                <p> All of the colours placed inside the larger rectangle are contrast acceptable and they have been
+                <h2 style="margin: 3rem 0 0 0;"> Contrast Colours & Accessiblity</h2>
+                <p style="width: 50rem;"> All of the colours placed inside the larger rectangle are contrast acceptable
+                    and they have been
                     checked
                     with Figma's Contrast plugin</p>
+                <div style="display: flex; align-items: center; justify-content: left; margin: 3rem 0 0 0;">
+                    <img class="contrastProof borderFilter" src="/img/contrast.png">
+                </div>
+                <h2 style="margin: 2rem 0 0 0;">Visual Examples</h2>
+                <div class="componentExamples">
+                    <div>
+                        <button class="button arathiHighlands buttonShadow"
+                            style="color: var(--seashell)">Button</button>
+                        <button class="button arathiHighlands buttonPressed" style="color: var(--seashell)">Button
+                            Pressed</button>
+                    </div>
+                    <div>
+                        <button class="button buttonBlue buttonShadow">Button</button>
+                        <button class="button buttonBlue buttonPressed">Button Pressed</button>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap;">
+                        <p class="textExample gray5" style="color: var(--seashell);">This is a sample sentence meant to
+                            convey visual examples of text on solid colour</p>
+                        <p class="textExample seashell" style="color: var(--arathi-highlands);">This is a sample
+                            sentence meant to convey visual examples of text on solid colour</p>
+                        <p class="textExample buttonBlue" style="color: var(--gray5);">This is a sample sentence meant
+                            to convey visual examples of text on solid colour</p>
+                    </div>
+                </div>
             </div>
             <div id="typography">
-                <h1>Typography & Graphics</h1>
+                <h1>Typography</h1>
                 <div class="lineBreak"></div>
-                <div class="typographyParagraph">
-                    <p>Paragraph Text Mulish 16 Font & 1 Rem</p>
-                    <p>Torem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                        mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut
-                        interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
-                        aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
-                        auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse
-                        ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam
-                        sit amet lacinia. Aliquam in elementum tellus.</p>
-                </div>
                 <div class="typographyHeadings">
-                    <h1>Lexend H1 30 Font & 1.9 Rem</h1>
-                    <h2>Lexend H2 27.2 Font & 1.7 Rem</h2>
-                    <h3>Lexend H3 24.4 Font & 1.5 Rem </h3>
-                    <h4>Lexend H4 21.6 Font & 1.4 Rem </h4>
-                    <h5>Lexend H5 18.8 Font & 1.2 Rem </h5>
-                    <h6>Lexend H5 18.8 Font & 1.2 Rem </h6>
+                    <div>
+                        <h1 class="headingAlignment">Lexend H1 30 Font & 1.9 Rem</h1>
+                        <p style="width: 50rem;">
+                            Choosing Lexend as our heading font takes into account the same selection criteria as
+                            Mullish
+                            It should be sans serif, but also retain a sense of "roundness"
+                        </p>
+                        <h2 class="headingAlignment">Lexend H2 27.2 Font & 1.7 Rem</h2>
+                        <h3 class="headingAlignment">Lexend H3 24.4 Font & 1.5 Rem </h3>
+                        <h4 class="headingAlignment">Lexend H4 21.6 Font & 1.4 Rem </h4>
+                        <h5 class="headingAlignment">Lexend H5 18.8 Font & 1.2 Rem </h5>
+                        <h6 class="headingAlignment">Lexend H6 16 Font & 1 Rem</h6>
+                    </div>
                 </div>
+                <div class="typographyParagraph">
+                    <p class="boldText">Paragraph Text Mulish 16 Font & 1 Rem</p>
+                    <p style="width: 50rem;">
+                        We chose Mullish due to it's simple sans serif nature. It is also being buoyantly round and
+                        for the average reader, they will be more likely to enjoy reading text.
+                        <br>
+                        <br>
+                        Thematically, we chose it since it perfectly matches our ideal experience when using
+                        WaddleOn, one that encompasses a comfortable and welcoming feeling while working on what you
+                        need to get done.
+                    </p>
+                    <p class="italicText">This is an example of Italics</p>
+                    <p class="boldText">This is an example of Bold (1000)</p>
+                    <a class="linkText">is an example of Links</a>
+                </div>
+
             </div>
             <div id="images">
-                <h1>Images</h1>
+                <h1>Graphic & Iconography</h1>
                 <div class="lineBreak"></div>
             </div>
-            <div id="references"></div>
     </main>
 </body>
 

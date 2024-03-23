@@ -240,6 +240,7 @@ p {
 .contrastProof {
     border-radius: 8px;
     height: 20rem;
+    margin: 1rem;
 }
 
 .description {
@@ -264,6 +265,7 @@ p {
     font-size: var(--h1);
     margin: 1rem;
 }
+
 
 .textExample {
     width: 10rem;
@@ -323,6 +325,15 @@ h6 {
 
 .imageSizing {
     width: 10rem;
+}
+
+.gridDescription {
+    margin: 0 0 0 1rem;
+    width: 30rem;
+}
+
+.gridDescription ul li {
+    font-family: var(--paragraph-style);
 }
 
 .icononographyContainer {

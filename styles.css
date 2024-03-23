@@ -18,7 +18,7 @@
     --arathi-highlands: #8DA742;
 
     background-color: var(--seashell);
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
 
 }
 
@@ -28,7 +28,8 @@
     justify-content: space-around;
     margin: 5rem auto;
     width: 90vw;
-
+    height: 8rem;
+    background-color: var(--seashell);
 }
 
 li {

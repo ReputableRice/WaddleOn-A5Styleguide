@@ -177,10 +177,10 @@ p {
     font-size: var(--h4);
     font-family: var(--header-style);
 }
-
+/* 
 .logoContent{
     height: 130vh;
-}
+} */
 
 .logoContainer {
     display: flex;
@@ -231,9 +231,7 @@ p {
 
 
 /* Colour */
-.colour{
-    height: 250vh;
-}
+
 .colourShapeMain {
     width: 16rem;
     height: 8rem;
@@ -285,7 +283,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 3rem 0 0 0;
 }

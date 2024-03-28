@@ -168,6 +168,14 @@ p {
     justify-content: center;
 }
 
+.logoMarginWord{
+    width: 50rem;
+}
+.logoMarginLogo{
+    width:26.5rem;
+    margin-left: 5rem;
+}
+
 .logoSubHead {
     font-size: var(--h1);
     font-family: var(--header-style);
@@ -231,7 +239,9 @@ p {
 
 
 /* Colour */
-
+.colour{
+    margin-top: 10rem;
+}
 .colourShapeMain {
     width: 16rem;
     height: 8rem;
@@ -307,7 +317,9 @@ p {
 }
 
 /* Typography */
-
+.typography{
+    margin-top: 10rem;
+}
 .typographyParagraph {
     display: flex;
     flex-direction: column;
@@ -354,7 +366,9 @@ h6 {
 }
 
 /* Graphics and Icons */
-
+.grapics{
+    margin-top: 10rem;
+}
 .imageSizing {
     width: 10rem;
 }

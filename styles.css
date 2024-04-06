@@ -116,6 +116,10 @@ p {
     filter: drop-shadow(0 0 0.2rem var(--gray5));
 }
 
+.borderFilter2 {
+    filter: drop-shadow(0 0 0.1rem var(--gray5));
+}
+
 .lineBreak {
     width: 60vw;
     height: 1rem;
@@ -363,6 +367,14 @@ h6 {
     text-decoration: underline;
     font-size: 1rem;
     font-family: var(--paragraph-style);
+}
+
+.mascotName {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 /* Graphics and Icons */

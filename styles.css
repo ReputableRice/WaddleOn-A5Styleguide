@@ -231,15 +231,20 @@ p {
 
 .favContainer{
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
     width: 20vw;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .logofav{
     font-family: var(--paragraph-style);
-    font-size: var(--h6);
-    margin:0 1rem 0 1rem;
+    margin:0 0.5rem 0 0.5rem;
+    width: 6rem;
+}
+
+.logofavLogo{
+    margin: 1rem;
 }
 
 
